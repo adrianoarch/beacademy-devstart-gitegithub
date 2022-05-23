@@ -128,6 +128,9 @@ Muitas vezes, quando você está trabalhando em uma parte do seu projeto, as coi
 Você quer mudar de branch, mas não quer fazer o commit do que você ainda está trabalhando; você irá fazer o stash das modificações. Para fazer um novo stash na sua pilha, execute:
 ```git
 git stash
+git stash pop (restaura alterações salvas)
+git stash pop stash@{1} (aplica stash especifico)
+
 ```
 Seu diretório de trabalho estará limpo.
 Neste momento, você pode facilmente mudar de branch e trabalhar em outra coisa; suas alterações estão armazenadas na sua pilha. Para ver as stashes que você guardou, você pode usar:
